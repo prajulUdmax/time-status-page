@@ -1,0 +1,253 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.hr-dropdown{
+	border: 2px solid black;
+	border-radius:8px ;
+	max-width:108px;
+	min-height: 28px;
+}
+
+.hr-dropdown span{
+	padding: 12px;
+	vertical-align: middle;
+}
+
+.main-container{
+	width: 100%;
+	margin-top: 8px;
+	border: 2px solid black;
+}
+
+.week-end-card{
+	border: 2px solid black;
+	border-radius:8px ;
+	max-width: 188px;
+	margin: 8px;
+	padding: 14px;
+  align-content: center;
+}
+.flex-box-row{
+	display: flex;
+	flex-direction: row;
+}
+.flex-box-column{
+	display: flex;
+	flex-direction: column;
+}
+.day{
+	margin: 8px;
+	padding: 14px;
+}
+
+.div-hor-line{
+	min-height: 1px;
+	width: 100%;
+	background-color: black;
+}
+.user-section{
+	max-width: 200px;
+	min-width: 200px;
+	 align-items: center;
+	justify-content: center;
+}
+.div-user-sep{
+	min-height: 1px;
+	width: 88%;
+	margin-left: 18px;
+	margin-right: 18px;
+	background-color: black;
+}
+.user{
+	padding: 18px;
+	align-content: center;
+	vertical-align: middle;
+  color:green;
+  margin-right: 10px;
+  
+}
+.vertical-sep{
+	min-height: 100%;
+	width: 1px;
+	background-color: black;
+}
+
+.work-data-card{
+	min-width:400px;
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 6px;
+	background-color: yellow;
+	margin-top: 18px;
+  margin-left:50px;
+}
+  .green-color {
+color:green;
+    margin-left:10px;
+    margin-right:10px;
+}
+  
+  .flex-box-columni{
+	display: flex;
+	flex-direction: column;
+   margin-top: 18px;
+    margin-bottom: 8px;
+}
+  .fa-clock-o{
+  	margin-right:10px;
+    margin-left:10px;
+    color:red;
+  }
+  .fa-check-circle{
+  	margin-left:10px;
+    margin-right:10px;
+  }
+  .green-color {
+color:green;
+    margin-left:10px;
+    margin-right:10px;
+}
+.fa-calendar{
+	color:blue;
+}   
+  .select-list-it{
+  border-radius: 4px;  
+  width: 200px;
+  height: 30px; 
+  }
+  .user-name{
+  	margin-left:20px;
+    color:blue;
+  }
+  .fa-user{
+  	margin-left:20px;
+    color:green;
+    
+  }
+</style>
+</head>
+<body>
+   
+   <div class="select-list">  
+     <select class="select-list-it" >
+        <option value="" selected>Team HR</option>
+        <option value="" >Team Test</option>
+        <option value="">Team Dev</option>
+        <option value="">Manager</option>
+    </select>
+</div>
+
+   
+   <div class="main-container">
+   	<div class="flex-box-row">
+   	<div class="week-end-card">
+       <i class="fa fa-calendar"></i>      
+   		Week Ending 7/31
+   	</div>
+
+   	<div class="flex-box-column day"><i class="fa fa-calendar"></i><span>7/25</span></div>
+   	<div class="flex-box-column day"><i class="fa fa-calendar"></i><span>7/26</span></div>
+   	<div class="flex-box-column day"><i class="fa fa-calendar"></i><span>7/27</span></div>
+   		<div class="flex-box-column day"><i class="fa fa-calendar"></i><span>7/28</span></div>
+   		<div class="flex-box-column day"><i class="fa fa-calendar"></i><span>7/29</span></div>
+   	<div class="flex-box-column day"><i class="fa fa-calendar"></i><span>7/30</span></div>
+   	<div class="flex-box-column day"><i class="fa fa-calendar"></i><span>7/31</span></div>
+   	</div>
+   	<div class="div-hor-line"></div>
+   <!-- user name section -->
+   	<div class="flex-box-row">
+   	<div class="flex-box-column user-section">
+   		<!-- user 1 -->
+   		<div class="flex-box-row user">
+   			<i class="fa fa-user" aria-hidden="true"
+   				
+   			></i>
+   			<span class="user-name" >Matt John</span>
+       
+   		</div>
+   		<div class="div-user-sep"></div>
+   		<!-- user 2 -->
+   		<div class="flex-box-row user">
+   			<i class="fa fa-user" aria-hidden="true"></i>
+   			<span class="user-name">Imy Jack</span>
+   		</div>
+   		<div class="div-user-sep"></div>
+   		<!-- user 3 -->
+   		<div class="flex-box-row user">
+   			<i class="fa fa-user" aria-hidden="true"></i>
+   			<span class="user-name">Morine J</span>
+   		</div>
+   		<div class="div-user-sep"></div>
+   		<!-- user 4 -->
+   		<div class="flex-box-row user">
+   			<i class="fa fa-user" aria-hidden="true"></i>
+   			<span class="user-name">Loft T</span>
+   		</div>
+   	</div>
+   	<!-- vertical bar -->
+   	<div class="vertical-sep"></div>
+   	<!-- work data -->
+     
+   	<div class="flex-box-column">
+ 	<div class="work-data-card">
+   		<div class="flex-box-row">
+   			<i class="fa fa-clock-o" aria-hidden="true"></i>
+   			<span class="user-name">37 hours</span>
+        <i class="fa fa-check-square-o green-color " > </i><i>7</i>
+       <i class="fa fa-check-circle" aria-hidden="true"> </i><i>5</i>
+       
+   		</div></div>
+     
+       	<div class="flex-box-colum">
+ 	<div class="work-data-card">
+   		<div class="flex-box-row">
+   			<i class="fa fa-clock-o" aria-hidden="true"></i>
+   			<span class="user-name">29 hours</span>
+        <i class="fa fa-check-square-o green-color " > </i><i>7</i>
+       <i class="fa fa-check-circle" aria-hidden="true"> </i><i>3</i>
+       </div>
+   		</div>
+       	<div class="flex-box-column">
+ 	<div class="work-data-card">
+   		<div class="flex-box-row">
+   			<i class="fa fa-clock-o" aria-hidden="true"></i>
+   			<span class="user-name">38 hours  </span>
+        <i class="fa fa-check-square-o green-color " > </i><i>7</i>
+       <i class="fa fa-check-circle" aria-hidden="true"></i><i>8</i>
+       </div>
+   		</div>
+       	<div class="flex-box-column">
+ 	<div class="work-data-card">
+   		<div class="flex-box-row">
+   			<i class="fa fa-clock-o" aria-hidden="true"></i>
+   			<span class="user-name">37 hours</span>
+        <i class="fa fa-check-square-o green-color"></i><i>5</i>
+       <i class="fa fa-check-circle" aria-hidden="true"></i><i>5</i>
+       </div>   	
+   	</div>
+          
+   </div>
+   </div>   
+   	</div> 	
+       	</div>
+   </div>
+
+
+<script>
+
+  
+</script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
